@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:padding="@dimen/widget_margin"
+    android:theme="@style/ThemeOverlay.CryptoPriceWidget.AppWidgetContainer"
+    android:orientation="vertical"
+  >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/bitcoin" />
+            <TextView
+                android:id="@+id/appwidget_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/appwidget_text"
+                android:text="Connecting..."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/ethereum" />
+            <TextView
+                android:id="@+id/appwidget_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/appwidget_text"
+                android:text="Connecting..."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/zcoin" />
+            <TextView
+                android:id="@+id/appwidget_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/appwidget_text"
+                android:text="Connecting..."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/zerox" />
+            <TextView
+                android:id="@+id/appwidget_text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/appwidget_text"
+                android:text="Connecting..."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/icon" />
+            <TextView
+                android:id="@+id/appwidget_text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/appwidget_text"
+                android:text="Connecting..."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/openMainButton"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/maximize"
+        android:backgroundTint="#66FFFFFF"/>
+
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/refresh"
+        android:backgroundTint="#66FFFFFF"/>
+
+
+</RelativeLayout>
