@@ -12,6 +12,7 @@ https://api.coingecko.com/api/v3/simple/price?ids=0x%2Czcoin%2Cicon%2Cbitcoin%2C
 To change coins, add or replace please take a look at CoinGecko Documentation <br>
 [CoinGecko API V3](https://www.coingecko.com/api/documentations/v3)
 <br>
+<br>
 <b>Cryptocurrencies used:</b> <br>
 Bitcoin<br>
 Ethereum<br>
