@@ -1,6 +1,6 @@
 # Android Studio Widget Crypto Prices
 
-<B> Android Studio Widget Example for displaying Cryptocurrency prices in the home screen widget using Volley HTTP library.<B> 
+<B> Android Studio Widget Example for displaying Cryptocurrency prices in the home screen widget using Volley HTTP library.
 <br>
 Refresh rate for the widget is set to 30 minutes to conserve battery <br>
 
